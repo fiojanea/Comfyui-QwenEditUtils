@@ -320,7 +320,7 @@ class TextEncodeQwenImageEditPlusAdvance_lrzjason:
             "required": 
             {
                 "clip": ("CLIP", ),
-                "prompt": ("STRING", {"multiline": True, "dynamicPrompts": True}),
+                "prompt": ("STRING", {"forceInput": True}),
             },
             "optional": 
             {
